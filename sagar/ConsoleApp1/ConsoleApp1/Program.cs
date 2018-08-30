@@ -12,7 +12,7 @@ namespace ConsoleApp1
         {
 
             int Num1 = 0;
-            Console.WriteLine("enter a integer");
+            Console.WriteLine("enter a whole between 1 and 1000");
             Num1 = int.Parse(Console.ReadLine());
             if (Num1 % 2 == 0)
             {
